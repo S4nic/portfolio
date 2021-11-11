@@ -1,4 +1,6 @@
 body{
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
   background: #0f0c29;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -10,7 +12,6 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 .hero{
   width: 100%;
   height: 100vh;
-  color: white;
   filter: drop-shadow(12px 12px 8px black);
   display: flex;
 }
@@ -22,4 +23,20 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
   font-size: 4em;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+}
+
+h1{
+  font-family: 'montserrat', sans-serif;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+.text-propos{
+  
+}
+
+.apropos, .projets{
+  padding: 50px;
 }
