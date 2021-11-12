@@ -10,7 +10,6 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 
 .navbar{
   background-color: rgba(79, 0, 153, 0.5);
-  height: 15vh;
   font-size: 1.5em;
   }
 
@@ -18,7 +17,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     margin-left: 3vw;
   }
 
-.apropos{
+.apropos, .projets{
   display: flex;
   flex-wrap: wrap;
 }
@@ -41,6 +40,8 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 
 h1{
   font-family: 'montserrat', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
   padding: 50px 0 0 50px;
 }
 
@@ -53,9 +54,11 @@ p{
 }
 
 .profil{
-  position: relative;
+  object-fit: contain;
+  height: 100%;
+  padding: 3vw;
 }
 
 .apropos, .projets{
-  padding: 50px;
+  padding: 4vw;
 }
