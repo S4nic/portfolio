@@ -49,14 +49,18 @@ p{
   font-size: 1.5rem;
 }
 
-.text-propos{
-  padding: 3vw;
+.text{
+  padding: 3vh 3vw 0 3vw;
 }
 
 
 
-.apropos, .projets{
+.apropos{
+  padding: 4vh 4vw 0 4vw;
+}
+.projets{
   padding: 4vw;
+
 }
 
 .photo img{
@@ -67,6 +71,7 @@ p{
 
 .card-text{
   color: black;
+  
 }
 
 .card img{
@@ -84,5 +89,34 @@ p{
   border-radius: 10px;
   background-color:rgba(255, 255, 255, 0.5);
   text-align: center;
+}
+
+footer{
+  background-color: rgba(79, 0, 153, 0.5);
+}
+
+.contact{
+  padding:0 3vw 3vh 3vw;
+  text-align: center;
+}
+.text-extra{
+  font-weight: 900;
+}
+
+.copyright{
+  text-align: right;
+  padding: 0 3vw 3vh 0;
+}
+
+h2{
+  text-align: center;
+  font-weight: bolder;
+}
+.link:link{
+  color: rgb(132, 1, 255);
+}
+
+.link:hover{
+  text-decoration: none;
 }
 
