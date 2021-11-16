@@ -37,11 +37,19 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
   text-transform: uppercase;
 }
 
+.hero-text:hover{
+  font-size: 4em;
+}
+
 h1{
   font-family: 'montserrat', sans-serif;
   display: flex;
   flex-wrap: wrap;
   padding: 50px 0 0 50px;
+}
+
+h1:hover{
+  text-decoration: underline;
 }
 
 p{
@@ -105,6 +113,10 @@ footer{
 .copyright{
   text-align: right;
   padding: 0 3vw 3vh 0;
+}
+h4{
+  text-decoration: underline;
+  color: #302b63
 }
 
 h2{
